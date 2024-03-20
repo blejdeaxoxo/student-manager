@@ -1,0 +1,13 @@
+[Student]-(View grades),[Student]-(View University details)
+[Teacher]-(Add grades),[Teacher]-(Add students),[Teacher]-(View students)
+[Admin]-(Add subject),[Admin]-(Create account)
+(View grades)>(Log in)
+(View University details)>(Log in)
+(Add grades)>(Log in)
+(Add students)>(Log in)
+(View students)>(Log in)
+(Add students)<(Display Already Added Error)
+(Create account)<(Display Already Created Error)
+(Log in)<(Display account locked error)
+(Log in)>(Verify credentials)
+
